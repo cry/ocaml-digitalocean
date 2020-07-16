@@ -1,0 +1,17 @@
+(lang dune 2.6)
+(generate_opam_files true)
+(name digitalocean)
+(version 0.1)
+(package
+    (name digitalocean)
+    (authors "Carey Li")
+    (homepage "https://cry.github.io/ocaml-digitalocean")
+    (bug_reports "https://github.com/cry/ocaml-digitalocean/issues")
+    (synopsis "A library for interacting with the digitalocean API")
+    (maintainers "Carey Li <hello@carey.li>")
+    (depends 
+        (cohttp-async (>= 2.5.3))
+        (core (>= "v0.13.0"))
+        (async (>= "v0.13.0"))
+        (async_ssl (>= "v0.13.0"))
+    ))
